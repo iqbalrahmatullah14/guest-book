@@ -3,7 +3,7 @@ description: Ajukan permohonan untuk menambahkan nama Anda ke Buku Tamu Kelas.
 title: "Add [NAMA LENGKAP ANDA] to Guestbook"
 labels: ["good first issue", "enhancement"]
 assignees:
-  - iqbalrahmatullah
+  - iqbalrahmatullah14
 body:
   - type: markdown
     attributes:
