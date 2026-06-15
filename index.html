@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu Mahasiswa - Open Source Class</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+            border-left: 4px solid var(--primary);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary);
+        }
+        .card p.nim {
+            font-size: 0.85rem;
+            color: #6b7280;
+            margin: 0 0 1rem 0;
+        }
+        .card p.quote {
+            font-style: italic;
+            margin: 0;
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Buku Tamu Kelas Open Source</h1>
+        <p>Praktikum Modul 12: Mari belajar kontribusi nyata ke proyek Open Source!</p>
+    </header>
+
+    <div class="container">
+        <div class="grid" id="guest-list">
+            
+            <!-- INSTRUKTUR: Card Contoh -->
+            <div class="card">
+                <h3>Iqbal Rahmatullah</h3>
+                <p class="nim">Instruktur / Maintainer</p>
+                <p class="quote">"Selamat datang di dunia Open Source! Silakan tambahkan nama kalian ke dalam buku tamu ini."</p>
+            </div>
+
+            <!-- MAHASISWA: Tambahkan Card HTML Anda di BAWAH BARIS INI -->
+            
+            
+
+            <!-- MAHASISWA: Tambahkan Card HTML Anda di ATAS BARIS INI -->
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Dibuat dengan ❤️ oleh Kelas Open Source 2026</p>
+    </footer>
+
+</body>
+</html>

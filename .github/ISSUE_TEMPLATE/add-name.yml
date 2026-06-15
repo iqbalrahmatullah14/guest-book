@@ -1,0 +1,45 @@
+name: Penambahan Nama (Guestbook Request)
+description: Ajukan permohonan untuk menambahkan nama Anda ke Buku Tamu Kelas.
+title: "Add [NAMA LENGKAP ANDA] to Guestbook"
+labels: ["good first issue", "enhancement"]
+assignees:
+  - iqbalrahmatullah
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah berpartisipasi dalam kelas Open Source! Silakan isi formulir singkat ini.
+  - type: input
+    id: name
+    attributes:
+      label: Nama Lengkap
+      description: Tuliskan nama lengkap Anda.
+      placeholder: misal. John Doe
+    validations:
+      required: true
+  - type: input
+    id: nim
+    attributes:
+      label: NIM / ID Mahasiswa
+      description: Nomor Induk Mahasiswa Anda.
+      placeholder: misal. 12345678
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Kutipan (Quote)
+      description: Apa kutipan inspiratif atau pesan Anda untuk buku tamu ini?
+      placeholder: misal. "Keep coding, keep learning!"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Persetujuan
+      description: Dengan mencentang ini, Anda memahami alur Open Source Contribution.
+      options:
+        - label: Saya sudah membaca CONTRIBUTING.md
+          required: true
+        - label: Saya akan menggunakan format branch dan commit yang benar
+          required: true
